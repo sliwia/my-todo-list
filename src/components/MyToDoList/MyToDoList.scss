@@ -1,0 +1,64 @@
+.my-todo-list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  width: 100%;
+}
+
+.single-ticket {
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background: white;
+  border-radius: 20px;
+}
+
+.single-ticket__title {
+  font-size: 16px;
+  text-align: center;
+}
+
+.single-ticket__title span {
+  font-size: 18px;
+  color: midnightblue;
+}
+
+.single-ticket__details {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.single-ticket__details span:first-of-type {
+  color: green;
+}
+
+.single-ticket__desc {
+  margin-top: 10px;
+}
+
+.single-ticket__desc span:first-of-type {
+  text-decoration: underline;
+}
+
+.btns-content {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  height: 30px;
+  margin: 20px auto 0 auto;
+}
+
+.btn-another {
+  font-size: 14px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}

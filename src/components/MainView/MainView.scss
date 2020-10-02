@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: white;
+  text-shadow: 2px 2px midnightblue;
+}
+
+header p {
+  color: midnightblue;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100vw;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background: midnightblue;
+}
